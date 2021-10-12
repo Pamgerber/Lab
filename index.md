@@ -1,1 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LabWeb</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/page.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+  <div>
+    <header class="p-3 mb-3">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none ">
+            <h1 id="textLogo" class="logo">LabWeb</h1>
+          </a>
+
+          <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="sobreNos.html" class="nav-link px-2 link-dark menuText">Sobre Nós</a></li>
+            <li><a href="publicacoes.html" class="nav-link px-2 link-dark menuText">Publicações</a></li>
+            <li><a href="contatos.html" class="nav-link px-2 link-dark menuText">Contato</a></li>
+          </ul>
+
+          <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 ">
+            <a href="#" class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="assets/image/search_black_24dp.svg" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+              <li><input type="search" class="form-control form-control-dark dropdown-item" placeholder="Search..."
+                  aria-label="Search"></li>
+            </ul>
+          </form>
+
+
+          <div class="dropdown text-end">
+            <a href="#" class="d-block link-dark text-decoration-none dropdown-toggle" id="dropdownUser1"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              <img id="user" src="assets/image/person-fill.svg" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+              <li><a class="dropdown-item" href="Agendameto.html">Agendamento de coleta</a></li>
+              <li><a class="dropdown-item" href="Solicitacao.html">Solicitação de coleta</a></li>
+              <li><a class="dropdown-item" href="listarSolicitacoes.html">Lista de coleta</a></li>
+              <li>
+                <hr />
+              </li>
+              <li><a class="dropdown-item" href="#">Sair</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+  </div>
+
+
+
+  <div class="conteudo">
+    <main class="p-2">
+      <div class="row align-items-md-stretch">
+        <div class="col-md-5">
+          <div class="h-100 p-5  rounded-3">
+            <img id="labicon" src="assets/image/labweb.png" width="70%">
+            <p>
+              Soluções para atender as necessidades
+              realizando agendamento de coleta
+            </p>
+          </div>
+        </div>
+        <div class="col-md">
+          <div class="h-100 p-5 bg-light  rounded-3">
+            <img src="assets/image/brain-2062048_1280.jpg" class="" width="100%">
+          </div>
+        </div>
+    </main>
+
+  </div>
+
+  <div class="rodape" >
+    <footer class="d-flex  justify-content-between align-items-center">
+      <p class="text-center ">&copy; 2021 LabWeb LTDA - Todos os direitos reservados</p>
+    </footer>
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+
+</html>
