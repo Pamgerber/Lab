@@ -1,0 +1,18 @@
+header{
+    background-color: #8F720A;
+}
+#user{
+    background-color: #555;   
+}
+.logo{
+    padding: 0px 50px;
+}
+#textLogo{
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+}
+.menuText{
+    color: #fff;
+}
