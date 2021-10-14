@@ -8,7 +8,7 @@ html{
     height: 100%;
 }
 body{
-    background-image: url("assets/image/cabecao.png");
+    background-image: url("/assets/image/cabecao.png");
     height: 100%;
 }
 
