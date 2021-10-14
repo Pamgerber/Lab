@@ -19,25 +19,29 @@
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="index.html" class="d-flex align-items-center mb-2 mb-lg-0 text-dark text-decoration-none ">
-          <h1 id="textLogo" class="logo">LabWeb</h1>
+          <img id="labicon" src="assets/image/logo.png" width="23%">
+          <h1 id="textLogo" class="logo"><font color="#ff8000">Lab</font>Web</h1>
         </a>
 
-        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="sobreNos.html" class="nav-link px-2 link-dark menuText">Sobre Nós</a></li>
-          <li><a href="publicacoes.html" class="nav-link px-2 link-dark menuText">Publicações</a></li>
-          <li><a href="contatos.html" class="nav-link px-2 link-dark menuText">Contato</a></li>
+        <ul class="nav col-20 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+            <li><a href="Sobre_Nós.html" class="nav-link px-2 link-dark menuText"><b>SOBRE NÓS&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></li>
+            <li><a href="Publicações.html" class="nav-link px-2 link-dark menuText"><b>PUBLICAÇÕES&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></li>
+            <li><a href="Contato.html" class="nav-link px-2 link-dark menuText"><b>CONTATO&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b></a></li>
         </ul>
 
-        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3 ">
-          <a href="#" class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
-            id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="assets/image/search_black_24dp.svg" alt="mdo" width="32" height="32" class="rounded-circle">
-          </a>
-          <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><input type="search" class="form-control form-control-dark dropdown-item" placeholder="Search..."
-                aria-label="Search"></li>
-          </ul>
-        </form>
+        <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
+            <a href="#" class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start"
+              id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="assets/image/search_black_24dp.svg" alt="mdo" width="32" height="32" class="rounded-circle">
+            </a>
+            <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
+              <div class="container">
+	        <div class="mb-3">
+	          <label for="procurar" class="form-label"></label>
+	          <input type="search" class="form-control" id="procurar" placeholder="PROCURAR">
+	        </div>
+            </ul>
+          </form>
 
 
         <div class="dropdown text-end">
@@ -46,9 +50,9 @@
             <img id="user" src="assets/image/person-fill.svg" alt="mdo" width="32" height="32" class="rounded-circle">
           </a>
           <ul class="dropdown-menu text-small" aria-labelledby="dropdownUser1">
-            <li><a class="dropdown-item" href="Agendameto.html">Agendamento de coleta</a></li>
-            <li><a class="dropdown-item" href="Solicitacao.html">Solicitação de coleta</a></li>
-            <li><a class="dropdown-item" href="listarSolicitacoes.html">Lista de coleta</a></li>
+            <li><a class="dropdown-item" href="Agendamento.html">Agendamento da coleta</a></li>
+            <li><a class="dropdown-item" href="Solicitação.html">Solicitação da coleta</a></li>
+            <li><a class="dropdown-item" href="Lista_Solicitações.html">Listagem das coletas</a></li>
 
             <li>
               <hr />
@@ -61,7 +65,14 @@
   </header>
   <div class="conteudo">
     <main>
-      <br />
+	    <section class="">
+              <div class="row ">
+                  <div class="col-lg-6 col-md-8 mx-auto">
+                      <h3 class="fw-light"><b class="titulo">Contato</b></h3>
+                      <p class="lead text-center"><i>Tire suas dúvidas ou solicite um orçamento! </i></p>
+			   </div>
+		       </div>
+      </section>
       <div class="container">
         <div class="mb-3">
           <label for="nomeContato" class="form-label"></label>
@@ -78,17 +89,23 @@
         <div class="mb-3">
           <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Mensagem" rows="3"></textarea>
         </div>
-        <button type="button" class="btn bt-01 ">Enviar</button>
+        <button id="btContato" type="button" class="btn bt-01 ">Enviar</button>
       </div>
-    </main>
+	    
+    				</div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </main>
   </div>
-  <br />
-  <footer class="d-flex  justify-content-between align-items-center">
-    <p class="text-center ">&copy; ©2021 LabWeb LTDA - Todos os direitos reservados</p>
-  </footer>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-    crossorigin="anonymous"></script>
+    <footer class="d-flex  justify-content-between align-items-center">
+        <p class="text-center ">&copy;2021 LabWeb LTDA - Todos os direitos reservados</p>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

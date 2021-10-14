@@ -8,7 +8,7 @@ html{
     height: 100%;
 }
 body{
-    background-color: #aaa;
+    background-image: url("/assets/image/cabecao.png");
     height: 100%;
 }
 
@@ -26,9 +26,7 @@ footer{
     color: #000;
     bottom: 0px;
 }
-.conteudo{
-   
-}
+
 main{
     justify-items: center;
     text-align: center;
@@ -38,13 +36,13 @@ main{
     margin-bottom: 10px;
     background-color: #fff;
 }
-@media(min-width: 765px){
+/* @media(min-width: 765px){
     .conteudo{
         margin-top: 2%;
         margin-bottom: 2%;
         height: 73%;
    }
-}
+} */
 @media(min-height: 890px){
     @media(max-width: 442px){
         .rodape{
