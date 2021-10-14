@@ -14,3 +14,7 @@ p{
 .texto{
     padding: 10px;
 }
+
+.titulo{
+    font-weight: bold;
+}

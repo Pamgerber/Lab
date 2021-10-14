@@ -2,10 +2,11 @@ header{
     background-color: #8F720A;
 }
 #user{
-    background-color: #555;   
+    background-color: #555;
+    margin-left: 5px;   
 }
 .logo{
-    padding: 0px 50px;
+    padding: 0px 35px;
 }
 #textLogo{
     color: #fff;
@@ -15,4 +16,13 @@ header{
 }
 .menuText{
     color: #fff;
+}
+
+
+@media(min-width: 992px){
+    .dropdown{
+        margin-right: 30px;
+    }
+    
+
 }
